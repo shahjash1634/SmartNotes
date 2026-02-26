@@ -11,6 +11,25 @@ chat:
   # CodeRabbit will automatically respond to @coderabbitai mentions in PR comments
   auto_reply: true
 
+issue_enrichment:
+  labeling:
+    auto_apply_labels: true
+    labeling_instructions:
+      - label: bug
+        instructions: Issues reporting bugs, errors, crashes, incorrect behavior, or unexpected results. This includes runtime errors, logic errors, broken functionality, regressions, and any deviation from expected or documented behavior.
+      - label: enhancement
+        instructions: Feature requests, improvements to existing functionality, performance optimizations, refactoring suggestions, UI/UX enhancements, and any suggestions to make the project better or add new capabilities.
+      - label: documentation
+        instructions: Documentation updates, additions, corrections, or clarifications needed. This includes missing docs, outdated information, unclear instructions, API documentation, code examples, README improvements, and any requests for better explanations or guides.
+  planning:
+    enabled: true
+    auto_planning:
+      enabled: true
+      labels:
+        - "plan-me" # Auto-plan issues with this label
+        - "feature" # Also auto-plan these
+        - "!no-plan" # Never auto-plan issues with this label
+
 reviews:
   profile: assertive # Options: chill (focuses on significant issues, less nitpicky about style), assertive (more thorough, flags style issues and minor improvements too)
 
@@ -138,6 +157,8 @@ reviews:
     - Confirm that the code meets the project's requirements and objectives
     - Confirm that copyright years are up-to date whenever a file is changed
     - Point out redundant obvious comments that do not add clarity to the code
+    - Ensure that comments are concise and suggest more concise comment statements if possible
+    - Discourage usage of verbose comment styles such as NatSpec
     - Look for code duplication
     - Suggest code completions when:
         - seeing a TODO comment
