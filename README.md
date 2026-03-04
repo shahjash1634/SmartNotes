@@ -48,21 +48,21 @@
 ---
 
 <div align="center">
-<h1>TODO: Project Name</h1>
+<h1>Smart Notes</h1>
 </div>
 
-[TODO](https://TODO.stability.nexus/) is a ... TODO: Project Description.
+Smart Notes is a privacy-focused desktop application for personal knowledge management. 
+It enables semantic search, automatic note linking, and AI-assisted querying of personal notes using Retrieval-Augmented Generation (RAG), all running locally on the user’s machine.
 
 ---
 
 ## 🚀 Features
 
-TODO: List your main features here:
-
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Feature 4**: Description
+- **Local AI-powered semantic search** across personal notes
+- **RAG-based question answering** over a personal knowledge base
+- **Markdown editor for structured note-taking**
+- **Automatic note linking and knowledge graph exploration**
+- **Fully offline architecture for privacy**
 
 ---
 
@@ -71,25 +71,20 @@ TODO: List your main features here:
 TODO: Update based on your project
 
 ### Frontend
-- React / Next.js / Flutter / React Native
-- TypeScript
-- TailwindCSS
+- Electron
+- HTML / JavaScript
+- React (planned)
+- TipTap (planned markdown editor)
 
-### Backend
-- Flask / FastAPI / Node.js / Supabase
-- Database: PostgreSQL / SQLite / MongoDB
+### Backend / Local Services
+- Node.js
 
-### AI/ML (if applicable)
-- LangChain / LangGraph / LlamaIndex
-- Google Gemini / OpenAI / Anthropic Claude
-- Vector Database: Weaviate / Pinecone / Chroma
-- RAG / Prompt Engineering / Agent Frameworks
+### AI / ML
+- Transformers.js
+- Ollama / llama.cpp
+- Vector database (Chroma or similar)
+- Retrieval-Augmented Generation (RAG)
 
-### Blockchain (if applicable)
-- Solidity / solana / cardano / ergo Smart Contracts
-- Hardhat / Truffle / foundry
-- Web3.js / Ethers.js / Wagmi
-- OpenZeppelin / alchemy / Infura
 
 ---
 
@@ -118,11 +113,10 @@ TODO: Complete applicable items based on your project type
 
 ## 🔗 Repository Links
 
-TODO: Update with your repository structure
 
-1. [Main Repository](https://github.com/AOSSIE-Org/TODO)
-2. [Frontend](https://github.com/AOSSIE-Org/TODO/tree/main/frontend) (if separate)
-3. [Backend](https://github.com/AOSSIE-Org/TODO/tree/main/backend) (if separate)
+
+1. [Main Repository](https://github.com/AOSSIE-Org/SmartNotes)
+
 
 ---
 
@@ -182,11 +176,15 @@ TODO: Document main user flows:
 
 ### Prerequisites
 
-TODO: List what developers need installed
+Before running Smart Notes locally, ensure the following are installed:
 
-- Node.js 18+ / Python 3.9+ / Flutter SDK
-- npm / yarn / pnpm
-- [Any specific tools or accounts needed]
+- Node.js (v18 or later)
+- npm (comes with Node.js)
+- Electron
+- Git
+
+Optional (for future AI features):
+- Ollama for running local LLM models
 
 ### Installation
 
@@ -195,8 +193,8 @@ TODO: Provide detailed setup instructions
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AOSSIE-Org/TODO.git
-cd TODO
+git clone https://github.com/AOSSIE/SmartNotes.git
+cd SmartNotes
 ```
 
 #### 2. Install Dependencies
@@ -223,10 +221,8 @@ DATABASE_URL=your_database_url
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
+npm run electron
 ```
 
 #### 5. Open your Browser
