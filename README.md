@@ -4,7 +4,7 @@
 <!-- Organization Logo -->
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
   <img alt="AOSSIE" src="public/aossie-logo.svg" width="175">
-  <img src="public/todo-project-logo.svg" width="175" />
+  
 </div>
 
 &nbsp;
@@ -12,7 +12,7 @@
 <!-- Organization Name -->
 <div align="center">
 
-[![Static Badge](https://img.shields.io/badge/aossie.org/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.aossie.org/)
+
 
 <!-- Correct deployed url to be added -->
 
@@ -51,7 +51,7 @@
 <h1>Smart Notes</h1>
 </div>
 
-Smart Notes is a privacy-focused desktop application for personal knowledge management. 
+Smart Notes is a privacy-focused desktop application for personal knowledge management.
 It enables semantic search, automatic note linking, and AI-assisted querying of personal notes using Retrieval-Augmented Generation (RAG), all running locally on the user’s machine.
 
 ---
@@ -217,9 +217,13 @@ Terminal 1:
 
 ```bash
 npm run dev
+```
 
 Terminal 2:
+
+```bash
 npm run electron
+```
 
 #### 5. Open your Browser
 
@@ -243,8 +247,7 @@ Thank you for considering contributing to this project! Contributions are highly
 
 
 
-- [Maintainer Name](https://github.com/username)
-- [Maintainer Name](https://github.com/username)
+- TBD
 
 ---
 
@@ -259,6 +262,6 @@ See the [LICENSE](LICENSE) file for details.
 
 Thanks a lot for spending your time helping grow. Keep rocking 🥂
 
-[![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/TODO)](https://github.com/AOSSIE-Org/TODO/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/SmartNotes)](https://github.com/AOSSIE-Org/SmartNotes/graphs/contributors)
 
 © 2025 AOSSIE 

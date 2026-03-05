@@ -2,7 +2,7 @@
   "name": "smartnotes",
   "version": "1.0.0",
   "description": "Privacy-focused local desktop knowledge management app powered by Electron.",
-  "main": "index.js",
+  "main": "src/main/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
