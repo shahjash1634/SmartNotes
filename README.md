@@ -240,7 +240,7 @@ Thank you for considering contributing to this project! Contributions are highly
 
 ## ✨ Maintainers
 
-- TBD
+- Maintained by the AOSSIE team.
 
 ---
 
@@ -253,7 +253,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 💪 Thanks To All Contributors
 
-Thanks a lot for spending your time helping grow. Keep rocking 🥂
+Thanks a lot for spending your time helping this project grow. Keep rocking 🥂
 
 [![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/SmartNotes)](https://github.com/AOSSIE-Org/SmartNotes/graphs/contributors)
 
