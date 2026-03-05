@@ -68,18 +68,19 @@ It enables semantic search, automatic note linking, and AI-assisted querying of 
 
 ## 💻 Tech Stack
 
-
-
 ### Frontend
+
 - Electron
 - HTML / JavaScript
 - React (planned)
 - TipTap (planned markdown editor)
 
 ### Backend / Local Services
+
 - Node.js
 
 ### AI / ML
+
 - Transformers.js
 - Ollama / llama.cpp
 - Vector database (Chroma or similar)
@@ -89,8 +90,6 @@ It enables semantic search, automatic note linking, and AI-assisted querying of 
 ---
 
 ## ✅ Project Checklist
-
-
 
 - [ ] **The protocol** (if applicable):
    - [ ] has been described and formally specified in a paper.
@@ -113,15 +112,12 @@ It enables semantic search, automatic note linking, and AI-assisted querying of 
 
 ## 🔗 Repository Links
 
-
-
 1. [Main Repository](https://github.com/AOSSIE-Org/SmartNotes)
 
 
 ---
 
 ## 🏗️ Architecture Diagram
-
 
 ```
 [Architecture Diagram Placeholder]
@@ -144,13 +140,11 @@ Example structure to include:
 
 ## 🔄 User Flow
 
-
 ```
 [User Flow Diagram Placeholder]
 ```
 
 ### Key User Journeys
-
 
 1. **User Journey 1**: Description
    - Step 1
@@ -177,8 +171,9 @@ Before running Smart Notes locally, ensure the following are installed:
 
 - Node.js (v18 or later)
 - npm (comes with Node.js)
-- Electron
 - Git
+
+Electron is installed locally through `npm install`.
 
 Optional (for future AI features):
 - Ollama for running local LLM models
@@ -225,9 +220,9 @@ Terminal 2:
 npm run electron
 ```
 
-#### 5. Open your Browser
+#### 5. Verify the Desktop App
 
-Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+After running `npm run electron`, the Smart Notes desktop window should open.
 
 For detailed setup instructions, please refer to our [Installation Guide](./docs/INSTALL_GUIDE.md) (if you have one).
 
@@ -244,8 +239,6 @@ Thank you for considering contributing to this project! Contributions are highly
 ---
 
 ## ✨ Maintainers
-
-
 
 - TBD
 

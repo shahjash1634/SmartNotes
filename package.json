@@ -4,13 +4,13 @@
   "description": "Privacy-focused local desktop knowledge management app powered by Electron.",
   "main": "src/main/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests specified yet\"",
     "dev": "vite",
     "electron": "electron src/main/main.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "electron": "^40.7.0",
     "react": "^19.2.4",
