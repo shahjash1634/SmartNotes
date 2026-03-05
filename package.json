@@ -1,7 +1,7 @@
 {
   "name": "smartnotes",
   "version": "1.0.0",
-  "description": "<!-- Don't delete it -->\r <div name=\"readme-top\"></div>",
+  "description": "Privacy-focused local desktop knowledge management app powered by Electron.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

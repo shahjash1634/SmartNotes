@@ -68,7 +68,7 @@ It enables semantic search, automatic note linking, and AI-assisted querying of 
 
 ## 💻 Tech Stack
 
-TODO: Update based on your project
+
 
 ### Frontend
 - Electron
@@ -90,7 +90,7 @@ TODO: Update based on your project
 
 ## ✅ Project Checklist
 
-TODO: Complete applicable items based on your project type
+
 
 - [ ] **The protocol** (if applicable):
    - [ ] has been described and formally specified in a paper.
@@ -122,7 +122,6 @@ TODO: Complete applicable items based on your project type
 
 ## 🏗️ Architecture Diagram
 
-TODO: Add your system architecture diagram here
 
 ```
 [Architecture Diagram Placeholder]
@@ -145,7 +144,6 @@ Example structure to include:
 
 ## 🔄 User Flow
 
-TODO: Add user flow diagrams showing how users interact with your application
 
 ```
 [User Flow Diagram Placeholder]
@@ -153,7 +151,6 @@ TODO: Add user flow diagrams showing how users interact with your application
 
 ### Key User Journeys
 
-TODO: Document main user flows:
 
 1. **User Journey 1**: Description
    - Step 1
@@ -172,7 +169,7 @@ TODO: Document main user flows:
 
 ---
 
-## �🍀 Getting Started
+## 🍀 Getting Started
 
 ### Prerequisites
 
@@ -186,14 +183,11 @@ Before running Smart Notes locally, ensure the following are installed:
 Optional (for future AI features):
 - Ollama for running local LLM models
 
-### Installation
-
-TODO: Provide detailed setup instructions
 
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AOSSIE/SmartNotes.git
+git clone https://github.com/AOSSIE-Org/SmartNotes.git
 cd SmartNotes
 ```
 
@@ -219,11 +213,13 @@ DATABASE_URL=your_database_url
 
 #### 4. Run the Development Server
 
+Terminal 1:
+
 ```bash
 npm run dev
 
+Terminal 2:
 npm run electron
-```
 
 #### 5. Open your Browser
 
@@ -233,15 +229,7 @@ For detailed setup instructions, please refer to our [Installation Guide](./docs
 
 ---
 
-## 📱 App Screenshots
 
-TODO: Add screenshots showcasing your application
-
-|  |  |  |
-|---|---|---|
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
-
----
 
 ## 🙌 Contributing
 
@@ -253,7 +241,7 @@ Thank you for considering contributing to this project! Contributions are highly
 
 ## ✨ Maintainers
 
-TODO: Add maintainer information
+
 
 - [Maintainer Name](https://github.com/username)
 - [Maintainer Name](https://github.com/username)
@@ -269,7 +257,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 💪 Thanks To All Contributors
 
-Thanks a lot for spending your time helping TODO grow. Keep rocking 🥂
+Thanks a lot for spending your time helping grow. Keep rocking 🥂
 
 [![Contributors](https://contrib.rocks/image?repo=AOSSIE-Org/TODO)](https://github.com/AOSSIE-Org/TODO/graphs/contributors)
 
