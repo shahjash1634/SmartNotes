@@ -91,17 +91,6 @@ It enables semantic search, automatic note linking, and AI-assisted querying of 
 
 ## ✅ Project Checklist
 
-- [ ] **The protocol** (if applicable):
-   - [ ] has been described and formally specified in a paper.
-   - [ ] has had its main properties mathematically proven.
-   - [ ] has been formally verified.
-- [ ] **The smart contracts** (if applicable):
-   - [ ] were thoroughly reviewed by at least two knights of The Stable Order.
-   - [ ] were deployed to: [Add deployment details]
-- [ ] **The mobile app** (if applicable):
-   - [ ] has an _About_ page containing the Stability Nexus's logo and pointing to the social media accounts of the Stability Nexus.
-   - [ ] is available for download as a release in this repo.
-   - [ ] is available in the relevant app stores.
 - [ ] **The AI/ML components** (if applicable):
    - [ ] LLM/model selection and configuration are documented.
    - [ ] Prompts and system instructions are version-controlled.
@@ -201,9 +190,11 @@ pnpm install
 Create a `.env` file in the root directory:
 
 ```env
-# Add your environment variables here
-API_KEY=your_api_key
-DATABASE_URL=your_database_url
+# Optional: Path to local Ollama installation
+OLLAMA_PATH=/usr/local/bin/ollama
+
+# Optional: Local model name for RAG
+LOCAL_MODEL=llama3
 ```
 
 #### 4. Run the Development Server
